@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!-- {% load static %} -->
+
+<h1>WORD COUNT</h1>
+
+<form action="{% url 'count' %}">
+	<textarea cols="140" rows="10" name="fulltext"></textarea>
+	<br />
+	<input type="submit" value="Count!" />
+</form>
+
+
+<!-- <html lang="en">
+<head>
+
+	<title>MAGA</title>
+<body>
+	<img src="{% static 'makeacademiagreatagain.jpg' %}"/>	
+	<h1>Hello fuckfaces!</h1>
+    <h1>Click <a href="/farts">here</a> to learn something!
+
+</body>
+</html>
+ -->
